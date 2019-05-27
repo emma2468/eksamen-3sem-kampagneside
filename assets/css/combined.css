@@ -9839,7 +9839,7 @@ a:hover > .nk-icon-search:after {
     color: #FAD9CD;
     padding: 20px;
     border: 2px solid #e6e6e6;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 
 .fa-play:hover{
@@ -9855,6 +9855,10 @@ a:hover > .nk-icon-search:after {
 .text1:hover{
     text-decoration: none;
     color: #000;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 /*slide info*/
