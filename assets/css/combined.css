@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'lucida_calligraphyitalic';
+    src: url('lucida_calligraphy_italic-webfont.woff2') format('woff2'),
+         url('lucida_calligraphy_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -5592,7 +5601,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     color: #171717;
     font-weight: 700
 }
@@ -5756,7 +5765,8 @@ h4 {
 }
 
 .text-white {
-    color: #fff !important
+    color: #999 !important;
+    opacity: 0.6;
 }
 .text-white1 {
     color: #4E4D4D !important
@@ -7512,7 +7522,8 @@ h4 {
 }
 
 .nk-header-title h1.nk-title {
-    line-height: 1.18
+    line-height: 1.18;
+        font-weight: 400;
 }
 
 .nk-footer {
@@ -9118,8 +9129,7 @@ a:hover > .nk-icon-search:after {
 
 .nk-portfolio-list .nk-portfolio-item .portfolio-item-category {
     font-size: .95rem;
-    line-height: 1;
-    text-transform: uppercase;
+    line-height: 1.5;
     font-weight: 500
 }
 
@@ -9837,8 +9847,11 @@ a:hover > .nk-icon-search:after {
 
 .fa-play{
     color: #FAD9CD;
-    padding: 20px;
-    border: 2px solid #e6e6e6;
+    padding-left: 24px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #421821;
     border-radius: 60px;
 }
 
@@ -9847,9 +9860,11 @@ a:hover > .nk-icon-search:after {
     border: 2px solid #000;
 }
 
+
 .text1{
     color: #4E4D4D;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .text1:hover{
@@ -9889,4 +9904,8 @@ a:hover{
 
 .slideInfoTekst{
     color: #fff;
+}
+
+button{
+    background: none;
 }
