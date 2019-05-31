@@ -5765,8 +5765,8 @@ h4 {
 }
 
 .text-white {
-    color: #999 !important;
-    opacity: 0.6;
+    color: #fff !important;
+/*    opacity: 0.8;*/
 }
 .text-white1 {
     color: #4E4D4D !important
@@ -5813,7 +5813,9 @@ h4 {
 }
 
 .bg-white {
-    background-color: #fff !important
+    background-color: #fff !important;
+    background-image: url(../images/background.png);
+    background-size: 100%;
 }
 
 .bg-black {
@@ -7530,7 +7532,7 @@ h4 {
     position: relative;
     background-color: #ebebeb;
     overflow: hidden;
-    z-index: 1
+    z-index: 1;
 }
 
 .nk-footer.nk-footer-transparent {
@@ -7549,7 +7551,7 @@ h4 {
 
 .nk-footer .nk-footer-social {
     padding-bottom: 12px;
-    color: #171717
+    color: #171717;
 }
 
 .nk-footer .nk-footer-social > ul {
@@ -9851,7 +9853,7 @@ a:hover > .nk-icon-search:after {
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 2px solid #421821;
+    border: 2px solid #B2B1B1;
     border-radius: 60px;
 }
 
@@ -9865,6 +9867,10 @@ a:hover > .nk-icon-search:after {
     color: #4E4D4D;
     text-decoration: none;
     font-size: 20px;
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px;
 }
 
 .text1:hover{
@@ -9908,4 +9914,8 @@ a:hover{
 
 button{
     background: none;
+}
+
+.ikoner{
+    width: 20px;
 }
