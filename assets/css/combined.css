@@ -9920,11 +9920,6 @@ button{
     width: 20px;
 }
 
-.card{
-    background-color: #F9F9F9;
-    border-radius: 20px;
-}
-
 .certificater{
     width: 100%;
 }
@@ -9938,4 +9933,23 @@ button{
     padding: 1em;
     font-size: 2.6em;
     color: white;
+}
+
+.btn:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+     outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.hjemmesiede{
+    text-decoration: none;
+    color: #CAB9A2;
+}
+
+.hjemmesiede:hover{
+    color: #4E4D4D;
 }
