@@ -9919,3 +9919,23 @@ button{
 .ikoner{
     width: 20px;
 }
+
+.card{
+    background-color: #F9F9F9;
+    border-radius: 20px;
+}
+
+.certificater{
+    width: 100%;
+}
+
+.nk-ibox-title{
+    color: #4E4D4D;
+}
+
+.display-8{
+    text-align: center;
+    padding: 1em;
+    font-size: 2.6em;
+    color: white;
+}
